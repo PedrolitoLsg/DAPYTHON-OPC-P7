@@ -2,6 +2,8 @@ import itertools
 from _datetime import datetime
 import csv
 
+piggy_bank = 500
+
 def brute(file):
     start = datetime.now()
     print("File used for computing is :" + str(file))
@@ -36,7 +38,7 @@ def bruteforce(rows):
                spendings += float(stock[1])
                benefit += (float(stock[1]) * (float(stock[2])/100))
            if benefit > competition_benefit[0]:
-               if spendings <= 500:
+               if spendings <= piggy_bank:
                    del competition_list[0]
                    competition_list.append(subset)
                    del competition_benefit[0]
