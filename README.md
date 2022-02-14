@@ -8,7 +8,7 @@ Two Algorithms are created, a bruteforce one and a greedy one.
 Amount of cash available can be modified in the script
 
 ## How to use
-Gitclone the project:
+Gitclone the project via Gibtash:
 ```
 gitclone https://github.com/PedrolitoLsg/DAPYTHON-OPC-P7
 ```
