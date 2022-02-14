@@ -6,3 +6,15 @@
 Two Algorithms are created, a bruteforce one and a greedy one.
 
 Amount of cash available can be modified in the script
+
+## How to use
+Gitclone the project
+in the command line just launch:
+```
+python main.py
+```
+
+You can then choose which algorithm you want
+Then you can choose which file you want to analyze.
+
+
